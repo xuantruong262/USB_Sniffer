@@ -1,0 +1,7 @@
+C:/Users/vxtru/OneDrive/Desktop/fanatec_main_workspace/common/usb_sniffer/usb_sniffer/firmware/build_schmitt/pioasm/CMakeFiles/pioasm.dir
+C:/Users/vxtru/OneDrive/Desktop/fanatec_main_workspace/common/usb_sniffer/usb_sniffer/firmware/build_schmitt/pioasm/CMakeFiles/edit_cache.dir
+C:/Users/vxtru/OneDrive/Desktop/fanatec_main_workspace/common/usb_sniffer/usb_sniffer/firmware/build_schmitt/pioasm/CMakeFiles/rebuild_cache.dir
+C:/Users/vxtru/OneDrive/Desktop/fanatec_main_workspace/common/usb_sniffer/usb_sniffer/firmware/build_schmitt/pioasm/CMakeFiles/list_install_components.dir
+C:/Users/vxtru/OneDrive/Desktop/fanatec_main_workspace/common/usb_sniffer/usb_sniffer/firmware/build_schmitt/pioasm/CMakeFiles/install.dir
+C:/Users/vxtru/OneDrive/Desktop/fanatec_main_workspace/common/usb_sniffer/usb_sniffer/firmware/build_schmitt/pioasm/CMakeFiles/install/local.dir
+C:/Users/vxtru/OneDrive/Desktop/fanatec_main_workspace/common/usb_sniffer/usb_sniffer/firmware/build_schmitt/pioasm/CMakeFiles/install/strip.dir

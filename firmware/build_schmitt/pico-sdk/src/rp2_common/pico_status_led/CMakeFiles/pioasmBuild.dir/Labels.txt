@@ -1,0 +1,13 @@
+# Target labels
+ pioasmBuild
+# Source files and their labels
+C:/Users/vxtru/OneDrive/Desktop/fanatec_main_workspace/common/usb_sniffer/usb_sniffer/firmware/build_schmitt/pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pioasmBuild
+C:/Users/vxtru/OneDrive/Desktop/fanatec_main_workspace/common/usb_sniffer/usb_sniffer/firmware/build_schmitt/pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pioasmBuild.rule
+C:/Users/vxtru/OneDrive/Desktop/fanatec_main_workspace/common/usb_sniffer/usb_sniffer/firmware/build_schmitt/pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pioasmBuild-complete.rule
+C:/Users/vxtru/OneDrive/Desktop/fanatec_main_workspace/common/usb_sniffer/usb_sniffer/firmware/build_schmitt/pico-sdk/src/rp2_common/pico_status_led/pioasm/src/pioasmBuild-stamp/pioasmBuild-build.rule
+C:/Users/vxtru/OneDrive/Desktop/fanatec_main_workspace/common/usb_sniffer/usb_sniffer/firmware/build_schmitt/pico-sdk/src/rp2_common/pico_status_led/pioasm/src/pioasmBuild-stamp/pioasmBuild-configure.rule
+C:/Users/vxtru/OneDrive/Desktop/fanatec_main_workspace/common/usb_sniffer/usb_sniffer/firmware/build_schmitt/pico-sdk/src/rp2_common/pico_status_led/pioasm/src/pioasmBuild-stamp/pioasmBuild-download.rule
+C:/Users/vxtru/OneDrive/Desktop/fanatec_main_workspace/common/usb_sniffer/usb_sniffer/firmware/build_schmitt/pico-sdk/src/rp2_common/pico_status_led/pioasm/src/pioasmBuild-stamp/pioasmBuild-install.rule
+C:/Users/vxtru/OneDrive/Desktop/fanatec_main_workspace/common/usb_sniffer/usb_sniffer/firmware/build_schmitt/pico-sdk/src/rp2_common/pico_status_led/pioasm/src/pioasmBuild-stamp/pioasmBuild-mkdir.rule
+C:/Users/vxtru/OneDrive/Desktop/fanatec_main_workspace/common/usb_sniffer/usb_sniffer/firmware/build_schmitt/pico-sdk/src/rp2_common/pico_status_led/pioasm/src/pioasmBuild-stamp/pioasmBuild-patch.rule
+C:/Users/vxtru/OneDrive/Desktop/fanatec_main_workspace/common/usb_sniffer/usb_sniffer/firmware/build_schmitt/pico-sdk/src/rp2_common/pico_status_led/pioasm/src/pioasmBuild-stamp/pioasmBuild-update.rule

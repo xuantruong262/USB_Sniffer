@@ -1,0 +1,48 @@
+﻿PICO USB SNIFFER - HƯỚNG DẪN NHANH
+==================================
+
+YÊU CẦU
+  - Windows 10/11 64-bit. Không cần cài Python, không cần mạng.
+  - Raspberry Pi Pico (RP2040) đã nạp firmware (xem mục 2).
+
+1. CHẠY TOOL
+  - Giải nén TOÀN BỘ file zip (không chạy trực tiếp trong zip).
+  - Mở PicoUsbSniffer.exe. Giữ nguyên thư mục _internal nằm cạnh file exe.
+  - Nếu Windows SmartScreen cảnh báo (file exe chưa được ký số):
+    More info -> Run anyway.
+  - Thử không cần phần cứng: chọn Port = "DEMO (no hardware)" rồi bấm Start.
+
+2. NẠP FIRMWARE (chỉ khi Pico chưa có firmware này)
+  - Tháo dây tap khỏi GP10/GP11.
+  - Giữ nút BOOTSEL và cắm Pico vào PC, ổ đĩa RPI-RP2 sẽ hiện ra.
+  - Kéo file firmware\usb_sniffer.uf2 vào ổ đó.
+
+3. NỐI DÂY
+    Pico pin 13 (GND)   -> GND
+    Pico pin 14 (GP10)  -> D+
+    Pico pin 15 (GP11)  -> D-
+    GP12 (pin 16)       -> KHÔNG nối
+  - KHÔNG nối VCC 5 V vào Pico.
+  - Cấp nguồn cho Pico trước khi nối vào bus.
+  - Không cắm hai host (ví dụ PC và PS5) vào cùng một board breakout.
+  - Dây tap dưới 10 cm, xoắn D+, D-, GND với nhau.
+  - Cáp USB ở đoạn có tap càng ngắn càng tốt. Cáp dài gây lỗi CRC/PID giả.
+  - Chỉ hỗ trợ Low Speed (1.5 Mb/s) và Full Speed (12 Mb/s).
+
+4. CAPTURE
+  - Port: chọn cổng COM có chữ [Pico]. Speed: Auto detect.
+  - Start / Stop. Muốn thấy enumeration thì bấm Start trước khi cắm thiết bị.
+  - Cần thời gian chính xác của từng SOF / IN-NAK: bỏ tick Fold trước khi Start.
+  - File được tự lưu vào thư mục captures cạnh file exe. Nếu thư mục đó không
+    ghi được thì lưu ở %LOCALAPPDATA%\PicoUsbSniffer\captures.
+  - File -> Export: CSV (định dạng Data Center), TXT, Wireshark (.pcapng).
+  - Wireshark: chọn USBPcap transfers (giống Wireshark trên Windows, có
+    usbhid.data) hoặc USB packets (mọi packet trên dây, kể cả packet lỗi).
+    Capture không có enumeration thì tool thêm descriptor HID, có ghi chú.
+  - Export CSV áp dụng bộ lọc hiện tại: bấm Clear trước nếu muốn xuất tất cả.
+
+5. KHI CÓ LỖI
+  - Tool báo lỗi bất ngờ: xem error.log (cạnh thư mục captures).
+  - Không thấy cổng [Pico]: đổi cáp USB (phải là cáp có dây dữ liệu), kiểm tra
+    firmware, bấm nút refresh cạnh ô Port.
+  - Có nhiều lỗi CRC/PID/STUFF: rút ngắn cáp và dây tap trước tiên.

@@ -1,0 +1,5 @@
+firmware/build/
+pc_tool/.venv/
+pc_tool/captures/
+__pycache__/
+*.pyc
